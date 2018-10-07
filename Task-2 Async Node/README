@@ -1,0 +1,8 @@
+Asynchronous Distributed Node Logistic Regression
+
+The code has parameters inside the code namely batch_size and train_epochs which can be changed by opening the code and modifying these values. By default: batch_size=60 and 
+train_epochs=10.
+
+To run the code simply run the command:
+
+bash run_code_template.sh &
