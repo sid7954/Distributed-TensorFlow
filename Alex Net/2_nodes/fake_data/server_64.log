@@ -1,0 +1,35 @@
+jayan@node-0:~/alexnet$ python -m AlexNet.scripts.train --mode cluster --batch_size=64
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/python/training/input.py:187: __init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/python/training/input.py:187: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+Tensor("Size:0", shape=(), dtype=int32, device=/job:ps/task:0)
+Tensor("Size_1:0", shape=(), dtype=int32, device=/job:ps/task:0)
+Input batch shape: images: (128, 256, 256, 3) labels: (128,)
+fake_data/input_producer/FIFOQueueV2
+fake_data/input_producer_1/FIFOQueueV2
+2018-10-16 18:48:43.797887: I tensorflow/core/distributed_runtime/master_session.cc:1161] Start master session 6a958cc71b88aba3 with config: allow_soft_placement: true
+WARNING:tensorflow:From /users/jayan/alexnet/AlexNet/scripts/train.py:160: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+4 threads started for queue
+2018-10-16 18:48:49.361628: step 0, loss = 9.16 (45.4 examples/sec; 2.820 sec/batch)
+2018-10-16 18:48:52.196421: step 1, loss = 1.95 (57.1 examples/sec; 2.241 sec/batch)
+2018-10-16 18:48:54.402492: step 2, loss = 1.95 (58.2 examples/sec; 2.200 sec/batch)
+2018-10-16 18:48:56.619945: step 3, loss = 1.95 (57.9 examples/sec; 2.211 sec/batch)
+2018-10-16 18:48:58.910205: step 4, loss = 1.95 (56.0 examples/sec; 2.284 sec/batch)
+2018-10-16 18:49:01.117671: step 5, loss = 1.95 (58.1 examples/sec; 2.203 sec/batch)
+2018-10-16 18:49:03.332551: step 6, loss = 1.95 (58.0 examples/sec; 2.208 sec/batch)
+2018-10-16 18:49:05.553024: step 7, loss = 1.95 (57.8 examples/sec; 2.216 sec/batch)
+2018-10-16 18:49:07.759187: step 8, loss = 1.95 (58.2 examples/sec; 2.200 sec/batch)
+2018-10-16 18:49:09.989006: step 9, loss = 1.95 (57.6 examples/sec; 2.223 sec/batch)
+2018-10-16 18:49:12.187452: step 10, loss = 1.95 (58.4 examples/sec; 2.192 sec/batch)
+2018-10-16 18:49:14.503645: step 11, loss = 1.95 (55.4 examples/sec; 2.312 sec/batch)
+2018-10-16 18:49:16.687295: step 12, loss = 1.95 (58.8 examples/sec; 2.177 sec/batch)
+2018-10-16 18:49:18.953055: step 13, loss = 1.95 (56.7 examples/sec; 2.259 sec/batch)
+2018-10-16 18:49:21.172574: step 14, loss = 1.95 (57.8 examples/sec; 2.213 sec/batch)
+2018-10-16 18:49:23.403349: step 15, loss = 1.95 (57.6 examples/sec; 2.224 sec/batch)
+2018-10-16 18:49:25.598232: step 16, loss = 1.95 (58.5 examples/sec; 2.188 sec/batch)
+Terminated
