@@ -1,0 +1,115 @@
+RNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/python/training/input.py:187: __init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/python/training/input.py:187: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+Tensor("Size:0", shape=(), dtype=int32, device=/job:ps/task:0)
+Tensor("Size_1:0", shape=(), dtype=int32, device=/job:ps/task:0)
+Input batch shape: images: (256, 256, 256, 3) labels: (256,)
+flowers_data/parallel_read/filenames
+flowers_data/parallel_read/common_queue
+flowers_data/batch/fifo_queue
+2018-10-15 13:01:33.570133: I tensorflow/core/distributed_runtime/master_session.cc:1161] Start master session cd842a5690a70150 with config: allow_soft_placement: true
+WARNING:tensorflow:From /users/jayan/alexnet/AlexNet/scripts/train.py:160: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+44 threads started for queue
+2018-10-15 13:01:42.718922: step 0, loss = 4.06 (40.8 examples/sec; 6.278 sec/batch)
+2018-10-15 13:01:46.605093: step 1, loss = 6.11 (91.4 examples/sec; 2.802 sec/batch)
+2018-10-15 13:01:49.214829: step 2, loss = 10.21 (98.6 examples/sec; 2.596 sec/batch)
+2018-10-15 13:01:51.936232: step 3, loss = 7.89 (94.5 examples/sec; 2.710 sec/batch)
+2018-10-15 13:01:54.583187: step 4, loss = 9.32 (97.0 examples/sec; 2.638 sec/batch)
+2018-10-15 13:01:57.237665: step 5, loss = 9.24 (97.0 examples/sec; 2.640 sec/batch)
+2018-10-15 13:02:00.288585: step 6, loss = 10.19 (84.3 examples/sec; 3.037 sec/batch)
+2018-10-15 13:02:02.918601: step 7, loss = 6.71 (97.9 examples/sec; 2.616 sec/batch)
+2018-10-15 13:02:05.821276: step 8, loss = 5.54 (88.7 examples/sec; 2.886 sec/batch)
+2018-10-15 13:02:08.514602: step 9, loss = 9.06 (95.7 examples/sec; 2.674 sec/batch)
+2018-10-15 13:02:11.223251: step 10, loss = 9.48 (95.0 examples/sec; 2.696 sec/batch)
+2018-10-15 13:02:13.870794: step 11, loss = 9.06 (97.4 examples/sec; 2.629 sec/batch)
+2018-10-15 13:02:16.572951: step 12, loss = 4.38 (95.1 examples/sec; 2.691 sec/batch)
+2018-10-15 13:02:19.735088: step 13, loss = 5.61 (81.5 examples/sec; 3.139 sec/batch)
+2018-10-15 13:02:22.325722: step 14, loss = 4.81 (99.2 examples/sec; 2.581 sec/batch)
+2018-10-15 13:02:24.926030: step 15, loss = 7.32 (99.1 examples/sec; 2.584 sec/batch)
+2018-10-15 13:02:27.550058: step 16, loss = 5.28 (97.9 examples/sec; 2.614 sec/batch)
+2018-10-15 13:02:30.099061: step 17, loss = 4.14 (101.2 examples/sec; 2.530 sec/batch)
+2018-10-15 13:02:32.863759: step 18, loss = 4.55 (93.0 examples/sec; 2.753 sec/batch)
+2018-10-15 13:02:35.590678: step 19, loss = 4.83 (94.2 examples/sec; 2.718 sec/batch)
+2018-10-15 13:02:38.260109: step 20, loss = 4.54 (96.3 examples/sec; 2.657 sec/batch)
+2018-10-15 13:02:41.008350: step 21, loss = 3.70 (93.7 examples/sec; 2.732 sec/batch)
+2018-10-15 13:02:43.684002: step 22, loss = 3.53 (96.1 examples/sec; 2.663 sec/batch)
+2018-10-15 13:02:46.402355: step 23, loss = 4.39 (94.7 examples/sec; 2.702 sec/batch)
+2018-10-15 13:02:49.145240: step 24, loss = 3.69 (93.9 examples/sec; 2.726 sec/batch)
+2018-10-15 13:02:51.836987: step 25, loss = 3.79 (95.5 examples/sec; 2.680 sec/batch)
+2018-10-15 13:02:54.502982: step 26, loss = 3.71 (96.5 examples/sec; 2.652 sec/batch)
+2018-10-15 13:02:57.154887: step 27, loss = 3.99 (97.3 examples/sec; 2.631 sec/batch)
+2018-10-15 13:02:59.696938: step 28, loss = 3.73 (101.2 examples/sec; 2.529 sec/batch)
+2018-10-15 13:03:02.362164: step 29, loss = 3.67 (96.5 examples/sec; 2.654 sec/batch)
+2018-10-15 13:03:05.120940: step 30, loss = 3.86 (93.1 examples/sec; 2.749 sec/batch)
+2018-10-15 13:03:08.090531: step 31, loss = 3.83 (86.7 examples/sec; 2.951 sec/batch)
+2018-10-15 13:03:10.721908: step 32, loss = 3.69 (97.6 examples/sec; 2.622 sec/batch)
+2018-10-15 13:03:13.400258: step 33, loss = 3.75 (96.0 examples/sec; 2.666 sec/batch)
+2018-10-15 13:03:16.124339: step 34, loss = 3.67 (94.3 examples/sec; 2.714 sec/batch)
+2018-10-15 13:03:18.800328: step 35, loss = 3.60 (96.0 examples/sec; 2.666 sec/batch)
+2018-10-15 13:03:21.551755: step 36, loss = 3.80 (93.6 examples/sec; 2.736 sec/batch)
+2018-10-15 13:03:24.172299: step 37, loss = 3.69 (98.1 examples/sec; 2.609 sec/batch)
+2018-10-15 13:03:26.937798: step 38, loss = 3.61 (92.9 examples/sec; 2.754 sec/batch)
+2018-10-15 13:03:29.559507: step 39, loss = 3.72 (98.1 examples/sec; 2.609 sec/batch)
+2018-10-15 13:03:32.122876: step 40, loss = 3.52 (100.4 examples/sec; 2.549 sec/batch)
+2018-10-15 13:03:34.680113: step 41, loss = 3.62 (100.6 examples/sec; 2.545 sec/batch)
+2018-10-15 13:03:37.410022: step 42, loss = 3.64 (94.3 examples/sec; 2.716 sec/batch)
+2018-10-15 13:03:40.220481: step 43, loss = 3.60 (91.6 examples/sec; 2.794 sec/batch)
+2018-10-15 13:03:48.333271: step 46, loss = 3.66 (96.6 examples/sec; 2.651 sec/batch)
+2018-10-15 13:03:50.890667: step 47, loss = 3.53 (100.4 examples/sec; 2.549 sec/batch)
+2018-10-15 13:03:53.580453: step 48, loss = 3.53 (95.6 examples/sec; 2.678 sec/batch)
+2018-10-15 13:03:56.240043: step 49, loss = 3.54 (96.8 examples/sec; 2.646 sec/batch)
+2018-10-15 13:03:59.006936: step 50, loss = 3.71 (92.8 examples/sec; 2.759 sec/batch)
+2018-10-15 13:04:01.668942: step 51, loss = 3.52 (96.6 examples/sec; 2.651 sec/batch)
+2018-10-15 13:04:04.389807: step 52, loss = 3.52 (94.4 examples/sec; 2.713 sec/batch)
+2018-10-15 13:04:07.100651: step 53, loss = 3.51 (94.9 examples/sec; 2.699 sec/batch)
+2018-10-15 13:04:09.725920: step 54, loss = 3.60 (97.9 examples/sec; 2.615 sec/batch)
+2018-10-15 13:04:12.408904: step 55, loss = 3.65 (95.7 examples/sec; 2.674 sec/batch)
+2018-10-15 13:04:15.082758: step 56, loss = 3.55 (96.4 examples/sec; 2.656 sec/batch)
+2018-10-15 13:04:17.825872: step 57, loss = 3.55 (93.9 examples/sec; 2.726 sec/batch)
+2018-10-15 13:04:20.526264: step 58, loss = 3.48 (95.2 examples/sec; 2.690 sec/batch)
+2018-10-15 13:04:23.045414: step 59, loss = 3.61 (102.2 examples/sec; 2.504 sec/batch)
+2018-10-15 13:04:25.545383: step 60, loss = 3.56 (102.7 examples/sec; 2.492 sec/batch)
+2018-10-15 13:04:28.694728: step 61, loss = 3.60 (81.5 examples/sec; 3.141 sec/batch)
+2018-10-15 13:04:31.372765: step 62, loss = 3.52 (96.1 examples/sec; 2.664 sec/batch)
+2018-10-15 13:04:34.117559: step 63, loss = 3.51 (93.6 examples/sec; 2.734 sec/batch)
+2018-10-15 13:04:36.752385: step 64, loss = 3.53 (97.6 examples/sec; 2.624 sec/batch)
+2018-10-15 13:04:39.450615: step 65, loss = 3.52 (95.5 examples/sec; 2.680 sec/batch)
+2018-10-15 13:04:42.140234: step 66, loss = 3.84 (95.6 examples/sec; 2.677 sec/batch)
+2018-10-15 13:04:45.066226: step 67, loss = 3.53 (87.8 examples/sec; 2.916 sec/batch)
+2018-10-15 13:04:47.682680: step 68, loss = 3.59 (98.2 examples/sec; 2.606 sec/batch)
+2018-10-15 13:04:50.264908: step 69, loss = 3.53 (99.8 examples/sec; 2.565 sec/batch)
+2018-10-15 13:04:52.956335: step 70, loss = 3.57 (95.9 examples/sec; 2.669 sec/batch)
+2018-10-15 13:04:55.917478: step 71, loss = 3.50 (87.0 examples/sec; 2.944 sec/batch)
+2018-10-15 13:04:58.682263: step 72, loss = 3.66 (93.4 examples/sec; 2.742 sec/batch)
+2018-10-15 13:05:01.384630: step 73, loss = 3.58 (95.2 examples/sec; 2.690 sec/batch)
+2018-10-15 13:05:04.035785: step 74, loss = 3.54 (97.2 examples/sec; 2.634 sec/batch)
+2018-10-15 13:05:06.816957: step 75, loss = 3.41 (92.6 examples/sec; 2.766 sec/batch)
+2018-10-15 13:05:09.328839: step 76, loss = 3.53 (102.5 examples/sec; 2.497 sec/batch)
+2018-10-15 13:05:12.375592: step 77, loss = 3.46 (84.8 examples/sec; 3.019 sec/batch)
+2018-10-15 13:05:16.875981: step 78, loss = 3.52 (57.9 examples/sec; 4.422 sec/batch)
+2018-10-15 13:05:22.228964: step 79, loss = 3.70 (48.5 examples/sec; 5.284 sec/batch)
+2018-10-15 13:05:32.798610: E tensorflow/core/distributed_runtime/master_session.cc:1811] Cleanup partition error: Unavailable: OS Error
+2018-10-15 13:05:32.799828: E tensorflow/core/distributed_runtime/master_session.cc:1811] Cleanup partition error: Unavailable: OS Error
+2018-10-15 13:05:32.799857: E tensorflow/core/distributed_runtime/master_session.cc:1811] Cleanup partition error: Unavailable: OS Error
+2018-10-15 13:05:32.799883: E tensorflow/core/distributed_runtime/master_session.cc:1811] Cleanup partition error: Unavailable: OS Error
+2018-10-15 13:05:32.799908: E tensorflow/core/distributed_runtime/master_session.cc:1811] Cleanup partition error: Unavailable: OS Error
+2018-10-15 13:05:32.799931: E tensorflow/core/distributed_runtime/master_session.cc:1811] Cleanup partition error: Unavailable: OS Error
+2018-10-15 13:05:32.799954: E tensorflow/core/distributed_runtime/master_session.cc:1811] Cleanup partition error: Unavailable: OS Error
+2018-10-15 13:05:32.799980: E tensorflow/core/distributed_runtime/master_session.cc:1811] Cleanup partition error: Unavailable: OS Error
+2018-10-15 13:05:32.800005: E tensorflow/core/distributed_runtime/master_session.cc:1811] Cleanup partition error: Unavailable: OS Error
+2018-10-15 13:05:32.800029: E tensorflow/core/distributed_runtime/master_session.cc:1811] Cleanup partition error: Unavailable: OS Error
+2018-10-15 13:05:32.800066: E tensorflow/core/distributed_runtime/master_session.cc:1811] Cleanup partition error: Unavailable: OS Error
+2018-10-15 13:05:32.800090: E tensorflow/core/distributed_runtime/master_session.cc:1811] Cleanup partition error: Unavailable: OS Error
+2018-10-15 13:05:32.800114: E tensorflow/core/distributed_runtime/master_session.cc:1811] Cleanup partition error: Unavailable: OS Error
+2018-10-15 13:05:32.800139: E tensorflow/core/distributed_runtime/master_session.cc:1811] Cleanup partition error: Unavailable: OS Error
+2018-10-15 13:05:32.800163: E tensorflow/core/distributed_runtime/master_session.cc:1811] Cleanup partition error: Unavailable: OS Error
+2018-10-15 13:05:32.800187: E tensorflow/core/distributed_runtime/master_session.cc:1811] Cleanup partition error: Unavailable: OS Error
+2018-10-15 13:05:32.800228: E tensorflow/core/distributed_runtime/master_session.cc:1811] Cleanup partition error: Unavailable: OS Error
+2018-10-15 13:05:32.800253: E tensorflow/core/distributed_runtime/master_session.cc:1811] Cleanup partition error: Unavailable: OS Error
+2018-10-15 13:05:32.800277: E tensorflow/core/distributed_runtime/master_session.cc:1811] Cleanup partition error: Unavailable: OS Error
+2018-10-15 13:05:32.800301: E tensorflow/core/distributed_runtime/master_session.cc:1811] Cleanup partition error: Unavailable: OS Error
