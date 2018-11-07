@@ -11,7 +11,7 @@ function terminate_cluster() {
 }
 
 function install_tensorflow_driver() {
-    for i in `seq 0 3`; do
+    for i in `seq 0 4`; do
         nohup ssh node-$i "sudo apt update; sudo apt install --assume-yes python-pip python-dev; sudo pip install tensorflow"
     done
 }
